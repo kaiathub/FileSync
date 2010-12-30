@@ -1,0 +1,19 @@
+Global setup:
+
+ Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email dlukyang@gmail.com
+  Add your public key
+        
+
+Next steps:
+
+  mkdir FileSync
+  cd FileSync
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:kaiathub/FileSync.git
+  git push origin master
+      
